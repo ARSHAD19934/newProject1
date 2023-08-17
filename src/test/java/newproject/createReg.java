@@ -10,6 +10,7 @@ public class createReg {
 	
 	{
 		System.out.println("createdregistration");
+		System.out.println("createdappartment);
 	}
 
 }
