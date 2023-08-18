@@ -60,7 +60,12 @@
 
    
   </dependencies>
+  
+   <profiles>
+   <profile>
+   <id>smoke</id>
    <build>
+   <pluginManagement>
    <plugins>
      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -73,7 +78,9 @@
         </configuration>
       </plugin>
 </plugins>
+   </pluginManagement>
    </build>
-  
+   </profile>
+    </profiles>
   
 </project>
