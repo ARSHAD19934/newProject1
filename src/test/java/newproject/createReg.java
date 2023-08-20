@@ -13,7 +13,8 @@ public class createReg {
 		System.out.println("createdappartment");
 		System.out.println("hello");
 		System.out.println("goodmorning");
-		System.out.println("good night");
+		
+		
 	}
 
 }
